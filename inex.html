@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hype 2.0 - Contributors</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff4b2b, #ff416c, #ffaf7b, #fc00ff, #00c3ff, #00db89);
+      background-size: 200% 200%;
+      animation: gradientAnimation 5s ease infinite;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .contributor-list {
+      margin-top: 20px;
+    }
+
+    .contributor-list h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .contributor-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .contributor-list li {
+      background-color: #222;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      text-align: left;
+    }
+
+    .contributor-list li::before {
+      content: "• ";
+      color: #ff416c;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hype 2.0 Organized by CSI BU</h1>
+    <p>Below are the contributors who edited the code and added their names!</p>
+
+    <div class="contributor-list">
+      <h2>Contributors:</h2>
+      <ul id="contributors">
+        <li> Nishant Attrey came to Hype 2.0</li>
+        <li> Shubham came to Hype 2.0</li>
+        
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
